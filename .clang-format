@@ -1,0 +1,10 @@
+BasedOnStyle: Google
+
+SortIncludes: CaseInsensitive
+IncludeCategories:
+  - Regex:           '<(cvcuda|nvcv|opencv2|cuda).*>'
+    Priority:        2
+  - Regex:           '<[[:alnum:]._]+>'
+    Priority:        1
+  - Regex:           '.*'
+    Priority:        3

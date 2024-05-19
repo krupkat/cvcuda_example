@@ -1,0 +1,13 @@
+{
+    "cmake.configureEnvironment": {
+        "CUDACXX": "/usr/local/cuda-12/bin/nvcc"
+    },
+    "cmake.configureArgs": [
+        "-DCMAKE_MODULE_PATH:PATH=/home/tom/CV-CUDA/build-rel/cmake"
+    ],
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",       
+        "--compile-commands-dir=build"
+    ],
+}
